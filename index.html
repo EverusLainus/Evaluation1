@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Evaluation1</title>
+</head>
+<style>
+    #container1{
+        display: flex;
+        width:100%;
+    }
+    #container2{
+        display: flex;
+        width:100%;
+    }
+    #container3{
+        display: flex;
+        background-color: #ede1ff;
+        align-content: center;
+        justify-content: center;
+        width:100%;
+        height: 400px;
+    }
+    #form{
+        padding:20px;
+        border:20px;
+        width:250px;
+        align-content: center; 
+        background-color: #f4f4f4;
+    }    
+    .row_pic{
+        padding:2px;
+        width:20%;
+        border-radius: 10px;
+        border-color: gray;
+        margin:20px;
+        box-shadow: 2px 2px 2px 2px  grey;
+    }
+    .row_pic1{
+        border:20px;
+        width:300px;
+        border-radius: 10px;
+        border-color: gray;
+        margin:20px;
+        box-shadow: 2px 2px 2px 2px grey;
+
+
+    }
+    #sign_in{
+        color: skyblue;
+    }
+    input[type="number"],
+    input[type="email"],
+    textarea{
+        width:100%;
+    }
+    button{
+        width:100%;
+        background-color:#3c67d9;
+    }  
+    
+</style>
+<body>
+    <div id="front">
+        <h1 style="color:orange">Etsy</h1>
+
+
+    </div>
+
+    <h1 style="align-content: center;">Our Products</h1>
+    <h2>Shop Our Popular Gift Categories</h2>
+
+    <div id="container1">
+        <div class = "row_pic">
+            <img title="img1" src="https://i.etsystatic.com/18265338/r/il/5fbb42/4479721093/il_340x270.4479721093_gfiz.jpg" alt="img1" width="200px"/>
+            <h3>Aniversary Gifts</h3>
+
+        </div>
+        <div class = "row_pic">
+            <img title="img1" src="https://i.etsystatic.com/14980522/r/il/8746e6/5806724446/il_340x270.5806724446_jqg8.jpg" alt="img1" width="200px"/>
+            <h3> Gifts for him</h3>
+
+        </div>
+        <div class = "row_pic">
+            <img title="img1" src="https://i.etsystatic.com/20922675/r/il/4af949/5429391062/il_340x270.5429391062_73r2.jpg" alt="img1" width="200px"/>
+            <h3>Gifts for her</h3>
+
+        </div>
+        <div class = "row_pic">
+            <img title="img1" src="https://i.etsystatic.com/6322679/r/il/6e2e53/1668127003/il_340x270.1668127003_kwjn.jpg" alt="img1" width="200px"/>
+            <h3>Personalised Gifts </h3>
+
+        </div>
+        <div class = "row_pic">
+            <img title="img1" src="https://i.etsystatic.com/19458228/r/il/6a09b4/1985966876/il_340x270.1985966876_fmhi.jpg" alt="img1" width="200px"/>
+            <h3>Wedding Gifts</h3>
+
+        </div>
+    </div>
+
+    <h1>Fresh from the blog -></h1>
+
+<div id="container2">
+    <div class = "row_pic1">
+        <img title="img11" src="https://i.etsystatic.com/inv/124dd9/5954625529/inv_620x495.5954625529_hvl8i01q.jpg?version=0" alt="img1" width="100%"  />
+        <h3>9 Comfy throws for Cosy Autumn vibes</h3>
+        <p>Embrace the cosy season with stylish throws</p>
+
+    </div>
+    <div class = "row_pic1">
+        <img title="img12" src="https://i.etsystatic.com/inv/431939/5800088458/inv_425x340.5800088458_kpqwxa6a.jpg?version=0" alt="img1" width="100%" />
+        <h3>Beautiful Bags that express you unique style</h3>
+        <p>Embrace the cosy season with stylish throws</p>
+
+    </div>
+    <div class = "row_pic1">
+        <img title="img13" src="https://i.etsystatic.com/inv/cffa12/5889608668/inv_425x340.5889608668_r9kd6n35.jpg?version=0" alt="img1" width="100%" />
+        <h3>The best gift ideas for kids of all ages</h3>
+        <p>Shop the sweetest surprice for all little ones </p>
+
+    </div>
+</div>
+
+<div id="container3">
+    <div id="form">
+    <h3>Create Account</h3>
+    <p>Aready have an account? <span id="sign_in">Sign in</span></p>
+    <form>
+        <div>
+        <label for="name">Full Name:</label>
+        <br/>
+        <textarea id="name" name="name"></textarea>
+        </div>
+        <div>
+            <label for="email">Email Address: </label>
+            <br/>
+            <input type="email" id="email" name="email" required/> 
+        </div>
+
+        <div>
+            <label for="number">Phone Number: </label>
+            <br/>
+            <input type="number" id="number" name="number" required/> 
+        </div>
+
+        <div>
+            <label for="number1">Referral Code(Optional): </label>
+            <br/>
+            <input type="number" id="number1" name="number1" /> 
+        </div>
+        <br/>
+        <div>
+            <button type="subbmit">submit</button>
+        </div>
+        <p>By signing up i accept the amasai Trrms and Comditions and achnoladge the privacy policy.</p>
+
+    </form>
+</div>
+
+</div>
+<footer style="background-color: black; color: white; width:100%; height:50px; align-items: center;">
+    <p style="align-content: center;">COPYRIGHT ETSY PRIVATE LIMITED ALL RIGHTS RESERVED</p>
+</footer>
+
+
+</body>
+</html>
